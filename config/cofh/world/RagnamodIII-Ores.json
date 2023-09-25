@@ -1,0 +1,379 @@
+{
+    "certusquartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 36,
+        "maxHeight": 54,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1, 1, -49, -48, -47, -40, -59, -41, 3, 4, 23, 24, -63, -28, -27, -26, -30, -29, -34, 66, 7]
+	},
+	"Yellorite": {
+        "template": "normal",
+        "block": "BigReactors:YelloriteOre",
+		"material": "stone",
+        "clusterSize": 8,
+        "numClusters": 15,
+        "meanHeight": 5,
+        "maxVariance": 15,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+			-49,
+			-48,
+			-47,
+			-40,
+			-59,
+			-41,
+			3,
+			4,
+			23,
+			24,
+			-63,
+			-28,
+			-27,
+			-26,
+			-30,
+			-29,
+			-34,
+			66,
+			7
+        ]
+    },
+	"Draconium": {
+        "template": "uniform",
+        "block": "DraconicEvolution:draconiumOre",
+        "clusterSize": 1,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+			-49,
+			-48,
+			-47,
+			-40,
+			-59,
+			-41,
+			3,
+			4,
+			23,
+			24,
+			-63,
+			-28,
+			-27,
+			-26,
+			-30,
+			-29,
+			-34,
+			66,
+			7
+        ]
+    },
+	"apatite": {
+        "template": "uniform",
+        "block": "Forestry:tile.resources",
+        "metadata": 0,
+        "clusterSize": 20,
+        "numClusters": 10,
+        "minHeight": 65,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+			-49,
+			-48,
+			-47,
+			-40,
+			-59,
+			-41,
+			3,
+			4,
+			23,
+			24,
+			-63,
+			-28,
+			-27,
+			-26,
+			-30,
+			-29,
+			-34,
+			66,
+			7
+        ]
+    },
+	 "Silicon": {
+        "template": "uniform",
+        "block": {"name": "GalacticraftCore:tile.gcBlockCore", "metadata": 8},
+        "metadata": 8,
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 3,
+        "minHeight": 0,
+        "maxHeight": 25,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-1, 1, -49, -48, -47, -40, -59, -41, 3, 4, 23, 24, -63, -28, -27, -26, -30, -29, -34, 66, 7]
+    },
+    "Aluminum": {
+        "template": "normal",
+        "block": {"name": "TConstruct:SearedBrick", "metadata": 5},
+		"material": "stone",
+        "clusterSize": 6,
+        "numClusters": 10,
+        "meanHeight": 56,
+        "maxVariance": 7,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Osmium": {
+        "template": "normal",
+        "block": "Mekanism:OreBlock",
+		"material": "stone",
+        "clusterSize": 7,
+        "numClusters": 12,
+        "meanHeight": 28,
+        "maxVariance": 7,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"Peridot": {
+        "template": "normal",
+        "block": {"name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 2},
+        "clusterSize": 4,
+        "numClusters": 6,
+        "meanHeight": 40,
+        "maxVariance": 4,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"Iridium": {
+        "template": "normal",
+        "block": "iridiummod:iridiumOre",
+		"material": "stone",
+        "clusterSize": 1,
+        "numClusters": 1,
+        "meanHeight": 2,
+        "maxVariance": 1,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"AirShard": {
+        "template": "normal",
+        "block": {"name": "Thaumcraft:blockCustomOre", "metadata": 1},
+		"material": "stone",
+        "clusterSize": 3,
+        "numClusters": 6,
+        "meanHeight": 24,
+        "maxVariance": 1,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"EarthShard": {
+        "template": "normal",
+        "block": {"name": "Thaumcraft:blockCustomOre", "metadata": 4},
+		"material": "stone",
+        "clusterSize": 3,
+        "numClusters": 6,
+        "meanHeight": 16,
+        "maxVariance": 1,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"FireShard": {
+        "template": "normal",
+        "block": {"name": "Thaumcraft:blockCustomOre", "metadata": 2},
+		"material": "stone",
+        "clusterSize": 3,
+        "numClusters": 6,
+        "meanHeight": 21,
+        "maxVariance": 1,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"WaterShard": {
+        "template": "normal",
+        "block": {"name": "Thaumcraft:blockCustomOre", "metadata": 3},
+		"material": "stone",
+        "clusterSize": 3,
+        "numClusters": 6,
+        "meanHeight": 19,
+        "maxVariance": 1,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"OrderShard": {
+        "template": "normal",
+        "block": {"name": "Thaumcraft:blockCustomOre", "metadata": 5},
+		"material": "stone",
+        "clusterSize": 3,
+        "numClusters": 6,
+        "meanHeight": 27,
+        "maxVariance": 1,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"EntropyShard": {
+        "template": "normal",
+        "block": {"name": "Thaumcraft:blockCustomOre", "metadata": 6},
+		"material": "stone",
+        "clusterSize": 3,
+        "numClusters": 6,
+        "meanHeight": 13,
+        "maxVariance": 1,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"EssenceOre": {
+        "template": "normal",
+        "block": "magicalcrops:magicalcrops_EssenceOre",
+		"material": "stone",
+        "clusterSize": 8,
+        "numClusters": 7,
+        "meanHeight": 6,
+        "maxVariance": 2,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"IC2-Uranium": {
+        "template": "normal",
+        "block": "IC2:blockOreUran",
+		"material": "stone",
+        "clusterSize": 6,
+        "numClusters": 13,
+        "meanHeight": 5,
+        "maxVariance": 7,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}
